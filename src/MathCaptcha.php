@@ -1,6 +1,6 @@
 <?php
 
-namespace ElicDev\MathCaptcha;
+namespace Coppee\MathCaptcha;
 
 use Illuminate\Session\SessionManager;
 
@@ -53,7 +53,7 @@ class MathCaptcha
      */
     public function verify($value)
     {
-        return $value == $this->getMathResult();
+        return $value === $this->getMathResult();
     }
 
     /**

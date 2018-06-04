@@ -1,6 +1,6 @@
 <?php
 
-namespace ElicDev\MathCaptcha;
+namespace Coppee\MathCaptcha;
 
 use Illuminate\Support\ServiceProvider;
 
