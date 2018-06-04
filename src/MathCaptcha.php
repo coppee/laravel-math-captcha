@@ -38,6 +38,7 @@ class MathCaptcha
     public function input(array $attributes = [])
     {
         $attributes['type'] = 'text';
+        $attributes['id'] = 'mathcaptcha';
         $attributes['name'] = 'mathcaptcha';
         $attributes['value'] = old('mathcaptcha');
 
