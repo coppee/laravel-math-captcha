@@ -1,5 +1,5 @@
 {
-    "name": "elic-dev/laravel-math-captcha",
+    "name": "coppee/laravel-math-captcha",
     "description": "A simple math captcha for Laravel form validation.",
     "keywords": ["captcha", "math-captcha", "math", "laravel", "laravel5"],
     "license": "MIT",
@@ -7,6 +7,9 @@
         {
             "name": "Matthias Lill",
             "email": "m.lill@gmx.de"
+        },
+        {
+            "name": "Jérôme Coppée"
         }
     ],
     "require": {
@@ -14,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ElicDev\\MathCaptcha\\": "src/"
+            "Coppee\\MathCaptcha\\": "src/"
         }
     }
 }
