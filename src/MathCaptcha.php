@@ -38,6 +38,7 @@ class MathCaptcha
     public function input(array $attributes = [])
     {
         $attributes['type'] = 'text';
+        $attributes['required'] = 'required';
         $attributes['id'] = 'mathcaptcha';
         $attributes['name'] = 'mathcaptcha';
         $attributes['value'] = old('mathcaptcha');
@@ -54,7 +55,7 @@ class MathCaptcha
      */
     public function verify($value)
     {
-        return $value === $this->getMathResult();
+        return $value == $this->getMathResult();
     }
 
     /**
